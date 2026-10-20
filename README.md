@@ -1,6 +1,6 @@
 # Treasure Hunt Contracts
 
-On-chain smart contracts for [Treasure Hunt](https://treasure.sparklerlabs.com) — a real-world treasure hunt game where anyone can bury crypto treasures at real-world coordinates, and anyone who works out the location can dig them up.
+On-chain smart contracts for [Treasure Hunt](https://treasure.sparklerlabs.com) — a real-world treasure hunt game where anyone can bury crypto treasures at real-world coordinates, and anyone who works out the location can dig them up. Live on BNB Smart Chain (BSC), Arbitrum One, and Robinhood Chain (Arbitrum Orbit); Sepolia hosts the testnet deployment.
 
 Built by [Sparkler Labs](https://sparklerlabs.com). Licensed under MIT.
 
@@ -29,7 +29,7 @@ npx hardhat test
 | --------- | -------- | ------------------------------------------ |
 | Sepolia   | 11155111 | `0xD2fB98Cf44472b8BD252E337884470A26C6F625d` |
 | Robinhood Chain | 4663 | `0x7B3a06F94F0080B453CE32038824e6561628F386` |
-| BSC       | 56       | `0x8E50935F047991667D3d272C437B8BC39f8900B6` |
+| BNB Smart Chain (BSC) | 56       | `0x8E50935F047991667D3d272C437B8BC39f8900B6` |
 | Arbitrum One | 42161 | `0xFEfda7665D72b2A987E9E49fD00906E9E077f7FD` |
 
 Per-network details (deploy block, ABI) live in [`deployments/`](deployments/).
