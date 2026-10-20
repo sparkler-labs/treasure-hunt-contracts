@@ -1,0 +1,30 @@
+{
+  "name": "treasure-hunt-contracts",
+  "version": "0.1.0",
+  "private": true,
+  "description": "On-chain treasure hunt game contracts: TreasureVault (forked from PostOffice Vault.sol)",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "node": "hardhat node",
+    "deploy:localhost": "hardhat run scripts/deploy.js --network localhost",
+    "deploy:sepolia": "hardhat run scripts/deploy.js --network sepolia",
+    "deploy:robinhood": "hardhat run scripts/deploy.js --network robinhood",
+    "deploy:bsc": "hardhat run scripts/deploy.js --network bsc",
+    "deploy:arbitrum": "hardhat run scripts/deploy.js --network arbitrum",
+    "deploy:optimism": "hardhat run scripts/deploy.js --network optimism",
+    "verify:sourcify": "node scripts/verify-sourcify.js",
+    "e2e:localhost": "hardhat run scripts/e2e.js --network localhost"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.2",
+    "@nomicfoundation/hardhat-ethers": "^3.0.8",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.12",
+    "@nomicfoundation/hardhat-verify": "^2.1.3",
+    "@openzeppelin/contracts": "5.0.1",
+    "chai": "^4.4.1",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.2",
+    "hardhat": "^2.22.0"
+  }
+}
